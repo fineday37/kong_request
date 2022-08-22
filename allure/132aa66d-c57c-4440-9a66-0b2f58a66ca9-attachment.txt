@@ -1,0 +1,1 @@
+2022-07-04 10:22:31,217 testcase.py test_case001 INFO 测试通过，结果为OK

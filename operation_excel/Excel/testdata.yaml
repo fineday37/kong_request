@@ -1,0 +1,51 @@
+- module: "登录"
+  ID: 1
+  UseCase: "账号密码登录"
+  url: "http://10.168.20.188:9000/basic-api/auth/login/account"
+  method: "post"
+  params: ""
+  headers: {"Content-Type": "application/json"}
+  body: {account: admin, autoLogin: false, password: sjkyadmin}
+  type: "data"
+  status_code: "200"
+  msg: "OK"
+  result:
+
+- module: "登录"
+  ID: 1
+  UseCase: "正确账号，空密码"
+  url: "http://10.168.20.188:9000/basic-api/auth/login/account"
+  method: "post"
+  params: ""
+  headers: {"Content-Type": "application/json"}
+  body: {account: admin, autoLogin: false, password:}
+  type: "data"
+  status_code: "200"
+  msg: "用户名或密码错误"
+  result:
+
+- module: "登录"
+  ID: 1
+  UseCase: "错误的账号和密码"
+  url: "http://10.168.20.188:9000/basic-api/auth/login/account"
+  method: "post"
+  params: ""
+  headers: {"Content-Type": "application/json"}
+  body: {account: admins, autoLogin: false, password: sjky }
+  type: "data"
+  status_code: "200"
+  msg: "用户名或密码错误"
+  result:
+
+- module: "登录"
+  ID: 1
+  UseCase: "用户名sql注入"
+  url: "http://10.168.20.188:9000/basic-api/auth/login/account"
+  method: "post"
+  params: ""
+  headers: {"Content-Type": "application/json"}
+  body: {account: admin or 1=1 --, autoLogin: false, password:}
+  type: "data"
+  status_code: "200"
+  msg: "用户名或密码错误"
+  result:

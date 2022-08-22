@@ -1,0 +1,77 @@
+2022-06-30 14:27:13,357 testcase.py test_case001 ERROR 'dict' object has no attribute 'json'
+2022-06-30 14:27:46,487 testcase.py test_case001 ERROR 'msg'
+2022-06-30 14:27:46,487 testcase.py test_case001 ERROR 'msg'
+2022-06-30 14:28:33,266 testcase.py test_case001 ERROR 'msg'
+2022-06-30 14:28:33,266 testcase.py test_case001 ERROR 'msg'
+2022-06-30 14:28:52,611 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 14:29:13,438 testcase.py test_case001 ERROR 'msg'
+2022-06-30 14:29:42,767 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 14:32:00,257 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 14:32:00,292 testcase.py test_case001 ERROR assert '用户名或密码错误' == 'OK'
+2022-06-30 14:32:00,292 testcase.py test_case001 ERROR assert '用户名或密码错误' == 'OK'
+2022-06-30 14:32:23,932 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 14:32:23,964 testcase.py test_case001 ERROR assert '用户名或密码错误' == '用户或密码错误'
+2022-06-30 14:32:23,964 testcase.py test_case001 ERROR assert '用户名或密码错误' == '用户或密码错误'
+2022-06-30 14:33:00,132 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 14:33:00,180 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:33:00,180 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,028 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 14:39:41,061 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,061 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,086 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,086 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,086 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,114 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,114 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,114 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:39:41,114 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 14:42:23,520 log.py <module> INFO 合格
+2022-06-30 14:42:23,520 log.py <module> INFO 合格
+2022-06-30 14:42:23,520 log.py <module> INFO 合格
+2022-06-30 15:52:21,065 log.py <module> INFO 合格
+2022-06-30 15:52:21,065 log.py <module> INFO 合格
+2022-06-30 15:55:46,797 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-06-30 15:55:46,833 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 15:55:46,867 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 15:55:46,895 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-06-30 16:29:56,150 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,150 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,154 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,154 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,154 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,157 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,157 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,157 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,157 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,167 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,167 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,167 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,167 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:29:56,167 testcase.py test_case001 ERROR expected '<document start>', but found '<block sequence start>'
+  in "F:\testcase\requests\operation_excel\Excel\drive.yaml", line 2, column 1
+2022-06-30 16:32:28,823 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:32:28,823 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:41:06,945 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:41:06,945 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:42:11,454 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:42:55,064 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:43:01,262 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:43:37,672 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:44:05,536 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 16:53:46,620 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 17:11:03,655 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 17:11:54,167 read_yaml.py write_yam INFO 写入数据成功
+2022-06-30 17:12:21,309 read_yaml.py write_yam INFO 写入数据成功
