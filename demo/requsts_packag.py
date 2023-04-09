@@ -37,18 +37,35 @@ class PacKag:
 
 
 if __name__ == '__main__':
+    data_test = {
+        "method": "post",
+        "url": "http://localhost:8000/users/",
+        "body": {
+            "username": "redisr777333",
+            "password": "111111",
+            "password2": "111111"
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+    res = PacKag(data_test).packaging()
+    print(res)
     apidata = Read_Yaml(setting.yaml_data).read_yam()
-    response = PacKag(apidata[0]).packaging()
+    print(apidata)
+    response = PacKag(apidata[0]).packaging()["data"]["token"]
     pprint.pprint(response)
-    data = {"token": {"authentication": response["data"]["token"]}}
-    Write_Yaml(data).write_yam()
-    query_label = Read_Yaml(setting.authentication_yaml).read_yam()
-    res = PacKag(query_label[0]).authentication()
-    pprint.pprint(res)
-    if res['data']['list'][0]['labelName'] == "iopk":
-        print("测试通过")
-    else:
-        print('测试失败')
+    write_token = {"token": {"authentication": response}}
+    Write_Yaml(write_token, setting.write_yaml).write_yam()
+    # data = {"token": {"authentication": response["data"]["token"]}}
+    # Write_Yaml(data).write_yam()
+    # query_label = Read_Yaml(setting.authentication_yaml).read_yam()
+    # res = PacKag(query_label[0]).authentication()
+    # pprint.pprint(res)
+    # if res['data']['list'][0]['labelName'] == "iopk":
+    #     print("测试通过")
+    # else:
+    #     print('测试失败')
     # login = {
     #     "url": "http://10.168.20.188:9000/basic-api/auth/login/account",
     #     "headers": {"Content-Type": "application/json"},

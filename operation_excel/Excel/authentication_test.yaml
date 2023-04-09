@@ -1,11 +1,10 @@
 - module: "查询"
   ID: 1
-  UseCase: "根据名称查询"
-  url: "http://10.168.20.188:9000/basic-api/labLabel/queryPage"
-  method: "post"
+  UseCase: "实时数据"
+  url: "http://10.168.20.48:9000/api/real-time/real-time-data"
+  method: "get"
   params: ""
   headers: {"Content-Type": "application/json"}
-  body: {"labelName":"iopk","labGroupId":"","current":1,"pageSize":10}
   type: "data"
   status_code: "200"
   msg: "iopk"
