@@ -1,0 +1,11 @@
+2023-04-03 10:03:23,365 read_yaml.py write_yam INFO 写入数据成功
+2023-04-03 10:03:23,406 testcase.py test_case002 INFO 数据为拼多多
+2023-04-03 10:03:23,406 testcase.py test_case002 INFO 数据为拼多多
+2023-04-03 10:03:23,406 testcase.py test_case002 INFO 数据为拼多多
+2023-04-03 10:50:50,777 read_yaml.py write_yam INFO 写入数据成功
+2023-04-03 13:24:37,281 read_yaml.py write_yam INFO 写入数据成功
+2023-04-03 13:24:37,312 testcase.py test_case002 INFO 数据为拼多多
+2023-04-03 13:24:37,312 testcase.py test_case002 INFO 数据为拼多多
+2023-04-03 13:24:37,312 testcase.py test_case002 INFO 数据为拼多多
+2023-04-03 16:44:09,576 read_yaml.py write_yam INFO 写入数据成功
+2023-04-03 16:45:03,595 read_yaml.py write_yam INFO 写入数据成功

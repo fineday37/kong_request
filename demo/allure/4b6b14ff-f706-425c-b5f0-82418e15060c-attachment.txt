@@ -1,0 +1,2 @@
+INFO     root:read_yaml.py:28 写入数据成功
+ERROR    root:testcase.py:75 'moduleType'

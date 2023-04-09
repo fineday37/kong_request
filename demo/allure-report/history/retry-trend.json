@@ -1,0 +1,14 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "http://47.92.76.123:8080/job/test_case/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 10,
+    "retry" : 0
+  }
+}, {
+  "data" : {
+    "run" : 0,
+    "retry" : 0
+  }
+} ]

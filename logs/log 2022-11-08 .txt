@@ -1,0 +1,138 @@
+2022-11-08 16:28:51,542 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:28:51,588 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:28:51,588 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:28:51,616 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:28:51,616 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:28:51,644 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:28:51,644 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:28:51,644 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:28:51,683 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:28:51,683 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:28:51,683 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:28:51,868 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:28:51,868 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:28:51,868 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:33:50,401 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:33:50,434 testcase.py test_case001 ERROR assert 'class java.l...xception:null' == '用户名或密码错误'
+  - 用户名或密码错误
+  + class java.lang.NullPointerException:null
+2022-11-08 16:33:50,434 testcase.py test_case001 ERROR assert 'class java.l...xception:null' == '用户名或密码错误'
+  - 用户名或密码错误
+  + class java.lang.NullPointerException:null
+2022-11-08 16:33:50,462 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:33:50,462 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:33:50,490 testcase.py test_case001 ERROR assert 'class java.l...xception:null' == '用户名或密码错误'
+  - 用户名或密码错误
+  + class java.lang.NullPointerException:null
+2022-11-08 16:33:50,490 testcase.py test_case001 ERROR assert 'class java.l...xception:null' == '用户名或密码错误'
+  - 用户名或密码错误
+  + class java.lang.NullPointerException:null
+2022-11-08 16:33:50,490 testcase.py test_case001 ERROR assert 'class java.l...xception:null' == '用户名或密码错误'
+  - 用户名或密码错误
+  + class java.lang.NullPointerException:null
+2022-11-08 16:33:50,532 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:33:50,532 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:33:50,532 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:33:50,575 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:33:50,575 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:33:50,575 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:40:28,483 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:40:28,519 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:42:25,954 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:42:26,003 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:42:26,003 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:42:26,053 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:42:26,053 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:42:26,102 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:42:26,102 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:42:26,102 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:42:26,152 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:42:26,152 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:42:26,152 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:42:26,203 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:42:26,203 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:42:26,203 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:43:01,220 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:43:01,256 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:01,256 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:01,280 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:43:01,280 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:43:01,301 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:01,301 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:01,301 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:01,336 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:43:01,336 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:43:01,336 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:43:01,381 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:43:01,381 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:43:01,381 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:43:40,431 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:43:40,456 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:40,456 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:40,475 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:43:40,475 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:43:40,501 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:40,501 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:40,501 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:43:40,533 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:43:40,533 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:43:40,533 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:43:40,611 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:43:40,611 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:43:40,611 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:45:00,472 log.py <module> INFO 合格
+2022-11-08 16:45:00,473 log.py <module> INFO 合格
+2022-11-08 16:46:00,569 log.py <module> INFO 合格
+2022-11-08 16:46:00,570 log.py <module> INFO 合格
+2022-11-08 16:52:28,350 log.py <module> INFO 合格
+2022-11-08 16:52:28,350 log.py <module> INFO 合格
+2022-11-08 16:52:33,365 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:52:33,365 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:52:33,387 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,387 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,387 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,406 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:52:33,406 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:52:33,406 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:52:33,406 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:52:33,426 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,426 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,426 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,426 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,426 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:52:33,461 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:52:33,461 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:52:33,461 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:52:33,461 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:52:33,461 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:52:33,490 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:52:33,490 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:52:33,490 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:52:33,490 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:52:33,490 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:52:33,490 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:53:29,673 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:53:29,673 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:53:29,707 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:53:29,707 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:53:29,726 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:53:29,726 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:53:29,747 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:53:29,747 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:53:29,773 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:53:29,773 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:53:29,805 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:53:29,805 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:54:15,336 log.py <module> INFO 合格
+2022-11-08 16:54:15,336 log.py <module> INFO 合格
+2022-11-08 16:54:46,261 read_yaml.py write_yam INFO 写入数据成功
+2022-11-08 16:55:01,644 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:55:01,644 testcase.py test_case001 INFO 测试通过，结果为OK
+2022-11-08 16:55:01,668 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:55:01,668 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:55:01,699 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:55:01,699 testcase.py test_case001 INFO 测试通过，结果为用户名或密码错误
+2022-11-08 16:55:01,719 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:55:01,719 testcase.py test_case001 ERROR assert 'class java.lang.NullPointerException:null' == '用户名或密码错误'
+2022-11-08 16:55:01,759 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk
+2022-11-08 16:55:01,759 testcase.py test_case002 INFO 查询标签成功，查询的标签名为iopk

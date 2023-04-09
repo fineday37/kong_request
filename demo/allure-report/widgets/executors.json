@@ -1,0 +1,10 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://47.92.76.123:8080/",
+  "buildOrder" : 4,
+  "buildName" : "test_case #4",
+  "buildUrl" : "http://47.92.76.123:8080/job/test_case/4/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://47.92.76.123:8080/job/test_case/4/allure"
+} ]

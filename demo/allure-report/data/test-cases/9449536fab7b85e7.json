@@ -1,0 +1,105 @@
+{
+  "uid" : "9449536fab7b85e7",
+  "name" : "用户登录",
+  "fullName" : "demo.testcase.Test_001#test_case001",
+  "historyId" : "dae4547607623d8bdccef0d7724aee1b",
+  "time" : {
+    "start" : 1680768881456,
+    "stop" : 1680768881485,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1680768881149,
+      "stop" : 1680768881344,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60ffb23d2917f1cc",
+      "name" : "李素裳",
+      "source" : "60ffb23d2917f1cc.jpg",
+      "type" : "image/jpg",
+      "size" : 3920798
+    }, {
+      "uid" : "252d5d95f977fd9a",
+      "name" : "log",
+      "source" : "252d5d95f977fd9a.txt",
+      "type" : "text/plain",
+      "size" : 77
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "不同的登录输入"
+  }, {
+    "name" : "feature",
+    "value" : "登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "demo"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_001"
+  }, {
+    "name" : "host",
+    "value" : "testkong"
+  }, {
+    "name" : "thread",
+    "value" : "10792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "demo.testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg",
+    "value" : "{'module': '登录', 'ID': 1, 'UseCase': '错误的账号和密码', 'url': 'http://10.168.20.48:9000/api/auth/login/account', 'method': 'post', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'body': {'account': 'admins', 'password': 'sjky'}, 'type': 'data', 'status_code': '200', 'msg': '用户名或密码错误', 'result': None}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9449536fab7b85e7.json",
+  "parameterValues" : [ "{'module': '登录', 'ID': 1, 'UseCase': '错误的账号和密码', 'url': 'http://10.168.20.48:9000/api/auth/login/account', 'method': 'post', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'body': {'account': 'admins', 'password': 'sjky'}, 'type': 'data', 'status_code': '200', 'msg': '用户名或密码错误', 'result': None}" ]
+}
