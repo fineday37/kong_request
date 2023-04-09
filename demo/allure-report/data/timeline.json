@@ -1,0 +1,143 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "testkong",
+    "children" : [ {
+      "name" : "10792-MainThread",
+      "children" : [ {
+        "name" : "用户登录",
+        "uid" : "41536ff286f610b7",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881345,
+          "stop" : 1680768881401,
+          "duration" : 56
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '登录', 'ID': 1, 'UseCase': '账号密码登录', 'url': 'http://10.168.20.48:9000/api/auth/login/account', 'method': 'post', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'body': {'account': 210910622, 'password': 'sjky210910622'}, 'type': 'data', 'status_code': '200', 'msg': 'OK', 'result': None}" ]
+      }, {
+        "name" : "用户登录",
+        "uid" : "9449536fab7b85e7",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881456,
+          "stop" : 1680768881485,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '登录', 'ID': 1, 'UseCase': '错误的账号和密码', 'url': 'http://10.168.20.48:9000/api/auth/login/account', 'method': 'post', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'body': {'account': 'admins', 'password': 'sjky'}, 'type': 'data', 'status_code': '200', 'msg': '用户名或密码错误', 'result': None}" ]
+      }, {
+        "name" : "查询标签",
+        "uid" : "bc764b6d5cf94b88",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881726,
+          "stop" : 1680768881749,
+          "duration" : 23
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "1", "2", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "2" ]
+      }, {
+        "name" : "用户登录",
+        "uid" : "f16357192724b8f4",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881494,
+          "stop" : 1680768881535,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '登录', 'ID': 1, 'UseCase': '用户名sql注入', 'url': 'http://10.168.20.48:9000/api/auth/login/account', 'method': 'post', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'body': {'account': '210910622 or 1=1 --', 'password': None}, 'type': 'data', 'status_code': '200', 'msg': '用户名或密码错误', 'result': None}" ]
+      }, {
+        "name" : "用户登录",
+        "uid" : "66b57937904c45c2",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881410,
+          "stop" : 1680768881449,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '登录', 'ID': 1, 'UseCase': '正确账号，空密码', 'url': 'http://10.168.20.48:9000/api/auth/login/account', 'method': 'post', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'body': {'account': 210910622, 'password': None}, 'type': 'data', 'status_code': '200', 'msg': '用户名或密码错误', 'result': None}" ]
+      }, {
+        "name" : "查询标签",
+        "uid" : "b2f187524b9c7b44",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881789,
+          "stop" : 1680768881817,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "3", "2", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "4" ]
+      }, {
+        "name" : "查询标签",
+        "uid" : "bb07a26bb2a2db86",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881650,
+          "stop" : 1680768881684,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "3", "1", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "4" ]
+      }, {
+        "name" : "查询标签",
+        "uid" : "2715fe53a6fd681d",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881861,
+          "stop" : 1680768881882,
+          "duration" : 21
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "1", "4", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "2" ]
+      }, {
+        "name" : "查询标签",
+        "uid" : "85c936fc56dbf0f6",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881920,
+          "stop" : 1680768881946,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODIsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.HwFzxVeFB9fk9ZHb9GzHFa_1pOMlEQy4Ll6BcxT7gg0'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "3", "4", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODIsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.HwFzxVeFB9fk9ZHb9GzHFa_1pOMlEQy4Ll6BcxT7gg0'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "4" ]
+      }, {
+        "name" : "查询标签",
+        "uid" : "ea7fc86f0b5e376",
+        "parentUid" : "3334c60ef6cedd0d9b274ece21022b37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1680768881579,
+          "stop" : 1680768881607,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "1", "1", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "2" ]
+      } ],
+      "uid" : "3334c60ef6cedd0d9b274ece21022b37"
+    } ],
+    "uid" : "fb36ad6e74aea42d96f4e93900264743"
+  } ]
+}

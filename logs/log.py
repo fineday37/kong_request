@@ -17,11 +17,12 @@ def Format():
         backupCount=1
     )
     sh = logging.StreamHandler()
-    test_log.addHandler(sh)
-    test_log.addHandler(fh)
     formatter = logging.Formatter("%(asctime)s %(filename)s %(funcName)s %(levelname)s %(message)s")
     sh.setFormatter(formatter)
     fh.setFormatter(formatter)
+
+    test_log.addHandler(sh)
+    test_log.addHandler(fh)
     return test_log
 
 

@@ -1,0 +1,24 @@
+- expensive: 10
+  store:
+    bicycle:
+      color: red
+      price: 19.95
+    book:
+    - author: 王建平
+      category: reference
+      price: 8.95
+      title: Sayings of the Century
+    - author: 张辉
+      category: fiction
+      price: 12.99
+      title: Sword of Honour
+    - author: 赵凤英
+      category: fiction
+      isbn: 0-553-21311-3
+      price: 8.99
+      title: Moby Dick
+    - author: 李娟
+      category: fiction
+      isbn: 0-395-19395-8
+      price: 22.99
+      title: The Lord of the Rings

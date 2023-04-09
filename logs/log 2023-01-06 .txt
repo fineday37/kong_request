@@ -1,0 +1,2 @@
+2023-01-06 16:55:14,792 log.py <module> INFO 合格
+2023-01-06 16:55:14,793 log.py <module> INFO 合格

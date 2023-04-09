@@ -1,2 +1,0 @@
-[32mINFO    [0m root:read_yaml.py:28 写入数据成功
-[32mINFO    [0m root:testcase.py:50 查询标签成功，查询的标签名为iopk

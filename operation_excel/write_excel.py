@@ -1,5 +1,8 @@
+import datetime
+
 import xlwings as xw
 from config import setting
+import datetime
 
 
 class WriteExcel:
@@ -16,8 +19,12 @@ class WriteExcel:
         locations.color = (255, 0, 0)
         locations.value = content
         self.wb.save()
-        self.app.quit()
+        # self.app.quit()
 
 
 if __name__ == '__main__':
-    WriteExcel(setting.test_data).update_excel("A5:A10", "原神")
+    WriteExcel(setting.test_data).update_excel("A11", [['蒙德', "璃月", "稻妻"], ["温迪", "钟离", "雷电影"]])
+    print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    st = '2023-01-09 15:10'
+    dt = datetime.datetime.strptime(st, '%Y-%m-%d %H:%M')
+    print(dt.timestamp())

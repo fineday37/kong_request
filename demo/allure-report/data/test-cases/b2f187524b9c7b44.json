@@ -1,0 +1,165 @@
+{
+  "uid" : "b2f187524b9c7b44",
+  "name" : "查询标签",
+  "fullName" : "demo.testcase.Test_002#test_case002",
+  "historyId" : "03face3e8fe7ea94a9b1798d42a06816",
+  "time" : {
+    "start" : 1680768881789,
+    "stop" : 1680768881817,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1680768881149,
+      "stop" : 1680768881344,
+      "duration" : 195
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1680768881756,
+      "stop" : 1680768881788,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "test_date",
+    "time" : {
+      "start" : 1680768881788,
+      "stop" : 1680768881788,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b3d53d6a1d57eee",
+      "name" : "log",
+      "source" : "5b3d53d6a1d57eee.txt",
+      "type" : "text/plain",
+      "size" : 90
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "test_date::0",
+    "time" : {
+      "start" : 1680768881820,
+      "stop" : 1680768881820,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "authorization::0",
+    "time" : {
+      "start" : 1680768881823,
+      "stop" : 1680768881823,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "demo"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_002"
+  }, {
+    "name" : "host",
+    "value" : "testkong"
+  }, {
+    "name" : "thread",
+    "value" : "10792-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "demo.testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg",
+    "value" : "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}"
+  }, {
+    "name" : "args",
+    "value" : "3"
+  }, {
+    "name" : "authorization",
+    "value" : "2"
+  }, {
+    "name" : "test_date",
+    "value" : "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}"
+  }, {
+    "name" : "tt",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "b2f187524b9c7b44.json",
+  "parameterValues" : [ "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "3", "2", "{'module': '查询', 'ID': 1, 'UseCase': '实时数据', 'url': 'http://10.168.20.48:9000/api/real-time/real-time-data', 'method': 'get', 'params': '', 'headers': {'Content-Type': 'application/json', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJkZWVwYmkiLCJpYXQiOjE2ODA3Njg4ODEsInVzZXIiOiJ7XCJhY2NvdW50XCI6XCIyMTA5MTA2MjJcIixcImRlcHRJZFwiOlwiMjM2MjgzNFwiLFwiZGVwdE5hbWVcIjpcIueglOWPkee7hFwiLFwicm9sZUlkc1wiOltcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIixcIjE0NzAyMzI2MTk3MzI1MDA0ODJcIl0sXCJ1c2VySWRcIjpcIjE1NzIyNjAxNVwiLFwidXNlck5hbWVcIjpcIuWtlOaMr-WbvVwifSJ9.vlTDRL6HGKaow76SOwzujgCqMgp4nSgyiXrDEW_Qtcg'}, 'type': 'data', 'status_code': '200', 'msg': 'iopk', 'result': None}", "4" ]
+}
